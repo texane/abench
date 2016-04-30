@@ -1,0 +1,22 @@
+sources: produce data
+CSV file
+DAQ file
+keithley 2450
+synthetic generators (sine ...)
+
+
+common input output representation
+performant, array based
+
+
+tools: analyze data
+noise free bits, histogram based
+linearity
+noise vs frequency
+long term drift
+scope
+fft
+
+
+filters
+low,high,band pass
