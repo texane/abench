@@ -1,8 +1,19 @@
-sources: produce data
-CSV file
-DAQ file
+this tool has 2 purposes:
+. sequence an acquisition procedure: prepare
+auxiliary devices, start stop acquisitions ...
+. process data produced during the acquisition:
+storage, analyses for ADC/DAC qualification,
+plotting
+
+
+signal generators:
 keithley 2450
 synthetic generators (sine ...)
+
+
+acquisition sources: produce data
+file (CSV, dump ...)
+DAQ file
 
 
 common input output representation
