@@ -21,13 +21,26 @@ performant, array based
 
 
 tools: analyze data
-noise free bits, histogram based
-linearity
-noise vs frequency
-long term drift
-scope
-fft
 
 
 filters
 low,high,band pass
+
+
+typical processing chain:
+acquisition -> file / buffer -> source -> analysis
+
+
+type of analaysis
+. noise free bits, histogram based
+. linearity
+. noise vs frequency
+. long term drift
+. frequency spectrum
+. value versus time
+
+
+data representation
+. code
+. voltage
+. scaled
