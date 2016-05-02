@@ -138,6 +138,11 @@ class Analysis:
 
 class NoiseAnalysis(Analysis):
     # DC noise analysis
+    #
+    # some definitions
+    # enob: effective number of bits
+    # snr: signal to noise ratio
+    # nfr: noise-free resolution
 
     def __init__(self):
         self._noisefree_res = 0
