@@ -1,3 +1,9 @@
+TODO
+. measure against grounded input histogram (cf. ref[1])
+. standard deviation = RMS noise
+. 6.6 * RMS noise = peak to peak noise
+. high DNL denotes bad ADC, electronics or PCB, cf. figure 3
+
 this tool has 2 purposes:
 . sequence an acquisition procedure: prepare
 auxiliary devices, start stop acquisitions ...
@@ -44,3 +50,8 @@ data representation
 . code
 . voltage
 . scaled
+
+
+references
+[1]: http://www.analog.com/media/en/training-seminars/tutorials/MT-004.pdf
+[2]: http://www.analog.com/media/en/technical-documentation/application-notes/AN-615.pdf?doc=CN0383.pdf
